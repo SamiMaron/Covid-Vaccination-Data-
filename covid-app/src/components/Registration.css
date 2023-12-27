@@ -1,0 +1,58 @@
+/* CSS for the Registration Component */
+
+/* Container Styles */
+.container {
+    padding: 1.25rem; 
+  }
+  
+  /* Form Styles */
+  form {
+    padding: 1.875rem;
+    border-radius: 0.625rem; 
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+  }
+  
+  .page-title {
+    color: #A2B29F;
+    text-align: center;
+    margin-bottom: 3.125rem; 
+  }
+  
+  /* Form Element Styles */
+  .form-control {
+    margin-bottom: 0.625rem; 
+    padding: 0.5rem; 
+    border: 1px solid #BDD2B6;
+    border-radius: 0.3125rem; 
+    width: 100%;
+  }
+  
+  .form-check-input {
+    margin-right: 0.3125rem; 
+  }
+  
+  .form-check-label {
+    margin-bottom: 0.3125rem; 
+  }
+  
+  .form-check-label::before {
+    width: 1.125rem; 
+    height: 1.125rem; 
+    margin-right: 0.5rem; 
+  }
+  
+  /* Button Styles */
+  .my-btn {
+    background-color: #BDD2B6;
+    color: #FEF5ED;
+    border: none;
+    padding: 0.625rem 1.25rem; 
+    border-radius: 0.3125rem; 
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .my-btn:hover {
+    background-color: #A2B29F;
+  }
+  

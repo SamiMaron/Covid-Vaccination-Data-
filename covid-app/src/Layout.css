@@ -1,0 +1,46 @@
+/* Layout.css */
+
+/* Color Palette */
+:root {
+  --primary-bg-color: #f8ede3; /* Lightest beige */
+  --primary-text-color: #798777; /* Dark greenish-gray */
+  --secondary-bg-color: #bdd2b6; /* Light green */
+  --secondary-text-color: #a2b29f; /* Greenish-gray */
+}
+
+/* Layout Container */
+.layout-container {
+  padding: 1.25rem; /* Equivalent to 20px */
+  font-family: Arial, sans-serif;
+}
+
+/* Navigation Section */
+.nav-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Links */
+.registration-link,
+.summary-link {
+  color: var(--primary-text-color);
+  text-decoration: none;
+  padding: 0.625rem 1.25rem; /* Equivalent to 10px 20px */
+  border-radius: 0.3125rem; /* Equivalent to 5px */
+}
+
+.registration-link {
+  background-color: var(--secondary-bg-color);
+}
+
+.summary-link {
+  background-color: var(--secondary-bg-color);
+  margin-left: 0.625rem; /* Equivalent to 10px */
+}
+
+/* Apply styles to the span elements inside the links */
+.registration-link > span,
+.summary-link > span {
+  display: block;
+}

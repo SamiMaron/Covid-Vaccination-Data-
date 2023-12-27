@@ -1,0 +1,90 @@
+/* CSS for the Summary Component */
+
+/* Summary Container Styles */
+.summary-container {
+    padding: 1.25rem; 
+  }
+  
+  /* Body Styles */
+  body {
+    background-color: #FEF5ED;
+    color: #99A799;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styles */
+  .page-title {
+    color: #A2B29F;
+    text-align: center;
+  }
+  
+  /* Filter Container Styles */
+  .filter-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.25rem 0; 
+  }
+  
+  /* Filter Input Styles */
+  .filter-container label {
+    margin-right: 0.625rem; 
+    color: #99A799;
+  }
+  
+  .filter-container input[type="date"],
+  .filter-container input[type="text"] {
+    padding: 0.5rem; 
+    border: 1px solid #ADC2A9;
+    border-radius: 0.3125rem; 
+  }
+  
+  /* Table Styles */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    padding: 0.75rem; 
+    border: 1px solid #ADC2A9;
+    text-align: center;
+  }
+  
+  .table th {
+    background-color: #D3E4CD;
+  }
+  
+  /* Table Data Styles */
+  .table td {
+    background-color: #FEF5ED;
+    color: #99A799;
+  }
+  
+  /* Alternate Row Background Color */
+  .table tbody tr:nth-child(odd) td {
+    background-color: #D3E4CD;
+  }
+  
+  /* Hover Styles */
+  .table tbody tr:hover {
+    outline: 0.125rem solid #ADC2A9; 
+    cursor: pointer;
+  }
+  
+  /* Responsive Table */
+  @media (max-width: 768px) {
+    .table {
+      display: block;
+      overflow-x: auto;
+    }
+  
+    .table th,
+    .table td {
+      white-space: nowrap;
+    }
+  }
+  
